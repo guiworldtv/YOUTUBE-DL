@@ -24,8 +24,6 @@ jobs:
         sudo chmod a+rx /usr/local/bin/youtube-dl
     - name: RTVE 24h
        run: |
-        mkdir "ES"
-        cd ES
         touch ./24h.m3u8
         sudo cat >./24h.m3u8 <<EOL
         #EXTM3U
@@ -35,7 +33,6 @@ jobs:
         EOL
      - name: 7NN
        run: |
-        cd ES
         touch ./7nn.m3u8
         sudo cat >./7nn.m3u8 <<EOL
         #EXTM3U
@@ -45,7 +42,6 @@ jobs:
         EOL
      - name: Libertad Digital
        run: |
-        cd ES
         touch ./libertaddigital.m3u8
         sudo cat >./libertaddigital.m3u8 <<EOL
         #EXTM3U
@@ -55,9 +51,6 @@ jobs:
         EOL
      - name: Dejate de Historias - Madrid
        run: |
-        cd ES
-        mkdir "Madrid"
-        cd Madrid
         touch ./DH.m3u8
         sudo cat >./DH.m3u8 <<EOL
         #EXTM3U
