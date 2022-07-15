@@ -14,7 +14,8 @@ jobs:
     steps:
      - name: Install youtube-dl
        run: |
-        sudo -H pip install --upgrade youtube-dl
+        sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+        sudo chmod a+rx /usr/local/bin/youtube-dl
      - name: RTVE 24h
        run: |
         touch ./24h.m3u8
