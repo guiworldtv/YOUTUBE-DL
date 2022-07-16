@@ -47,7 +47,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g --proxy socks5://153.121.68.69:8444/ https://www.youtube.com/c/RECORDTVJAPAN/live)
+        $(youtube-dl -g --proxy http://172.105.197.49:80/ https://www.youtube.com/c/RECORDTVJAPAN/live)
         EOL
     - name: git add
       run: |
