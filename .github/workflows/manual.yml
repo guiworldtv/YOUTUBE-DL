@@ -65,7 +65,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://tvonline.fm/tv-record/)
+        $(youtube-dl -g https://megacanais.com/record-ao-vivo/)
         EOL
     - name: git add
       run: |
