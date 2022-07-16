@@ -1,4 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://playback2.akamaized.net/streams/21076186_10489119_lsij29azccspw153ncl_1/exp=1658044308~acl=%2f*~data=hdntl~hmac=7c939e0f66ddccda24c68fb7100a1b2a4d27b8b38d11381c6754243ad597e845/media/21076186_10489119_lsij29azccspw153ncl_1@2756000p.m3u8?dw=80&ts=1657954800
+https://streaming.ufg.br:8443/radiouniversitaria
+EOL        
