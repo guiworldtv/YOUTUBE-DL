@@ -83,7 +83,8 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g  https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-ibirapuera
+        $(youtube-dl -g  https://diaonline.ig.com.br/camera-ao-vivo/praca-civica-goiania-go/
+        https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-ibirapuera
         https://www.climaaovivo.com.br/sp/sao-paulo/alpha-sat-paulista-wall-street-sudoeste
         https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-moema
         https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel
