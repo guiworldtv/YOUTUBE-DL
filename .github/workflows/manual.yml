@@ -84,7 +84,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g  https://diaonline.ig.com.br/camera-ao-vivo/morro-do-mendanha/
-        https://diaonline.ig.com.br/camera-ao-vivo/rua-9-cartorio-indio-artiaga-goiania-go/
         https://diaonline.ig.com.br/camera-ao-vivo/df-003-epia-km-17-brasilia-df/
         https://diaonline.ig.com.br/camera-ao-vivo/praca-civica-goiania-go/
         https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-ibirapuera
