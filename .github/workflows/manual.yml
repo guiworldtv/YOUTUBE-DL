@@ -83,7 +83,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g  https://globoplay.globo.com/cbn-sp/ao-vivo/9182156/)
+        $(youtube-dl -g  https://diaonline.ig.com.br/camera-ao-vivo/morro-do-mendanha/)
         EOL
     - name: git add
       run: |
