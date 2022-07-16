@@ -56,7 +56,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl --get-thumbnail https://www.youtube.com/c/DiecastTV)
+        $(youtube-dl --get-thumbnail https://www.youtube.com/c/DiecastTV/live)
         EOL        
     - name: git add
       run: |
