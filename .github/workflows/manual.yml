@@ -58,6 +58,15 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://radio.ufg.br/p/8051-radio-ao-vivo)
         EOL        
+    - name: Get ALGUM2.m3u8
+      run: |
+        touch ./ALGUM2.m3u8
+        sudo cat >./ALGUM2.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.xvideos.com/video47439621/de_ferias_com_o_ex_brasil_1x05)
+        EOL
     - name: git add
       run: |
         git add -A
