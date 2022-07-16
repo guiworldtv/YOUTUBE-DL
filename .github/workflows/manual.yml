@@ -67,6 +67,16 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.cxtv.com.br/tv-ao-vivo/iurd-tv)
         EOL
+    - name: Get ALGUM3.m3u8
+      run: |
+        touch ./ALGUM3.m3u8
+        sudo cat >./ALGUM3.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.cxtv.com.br/camera-ao-vivo/rio-de-janeiro-copacabana)
+        EOL
+        
     - name: git add
       run: |
         git add -A
