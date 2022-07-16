@@ -84,13 +84,6 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g  https://diaonline.ig.com.br/camera-ao-vivo/praca-civica-goiania-go/
-        https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-ibirapuera
-        https://www.climaaovivo.com.br/sp/sao-paulo/alpha-sat-paulista-wall-street-sudoeste
-        https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-moema
-        https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel
-        https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-tuakaza
-        https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel
-        https://www.climaaovivo.com.br/go/goiania-comfort-hotel-goiania)
         EOL
     - name: git add
       run: |
@@ -100,3 +93,11 @@ jobs:
       run: |
         git commit -m "links atualizados"
         git push
+        
+        https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-ibirapuera
+        https://www.climaaovivo.com.br/sp/sao-paulo/alpha-sat-paulista-wall-street-sudoeste
+        https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-moema
+        https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel
+        https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-tuakaza
+        https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel
+        https://www.climaaovivo.com.br/go/goiania-comfort-hotel-goiania)
