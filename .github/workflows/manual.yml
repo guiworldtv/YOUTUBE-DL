@@ -47,7 +47,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g --proxy socks5://72.221.232.155:4145/ https://www.youtube.com/c/RECORDTVJAPAN/live)
+        $(youtube-dl -g --proxy https://140.227.69.124:3180/ https://www.youtube.com/c/RECORDTVJAPAN/live)
         EOL
     - name: Get ALGUM.m3u8
       run: |
@@ -56,7 +56,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl --proxy socks5://72.221.232.155:4145/ https://www.youtube.com/c/RECORDTVJAPAN/)
+        $(youtube-dl --proxy https://140.227.69.124:3180/ https://www.youtube.com/c/RECORDTVJAPAN/)
         EOL        
     - name: git add
       run: |
