@@ -56,7 +56,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g --geo-bypass-country JPN  https://www.youtube.com/c/RECORDTVJAPAN/live)
+        $(youtube-dl -g -https://radio.ufg.br/p/8051-radio-ao-vivo)
         EOL        
     - name: git add
       run: |
