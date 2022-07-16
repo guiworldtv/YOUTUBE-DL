@@ -74,7 +74,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.elnueve.com.ar/en-vivo?jwsource=cl)
+        $(youtube-dl -g https://www.cxtv.com.br/camera-ao-vivo/centro-peruibe)
         EOL
         
     - name: git add
