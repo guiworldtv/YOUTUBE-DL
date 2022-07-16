@@ -1,9 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-[youtube:tab] RECORDTVJAPAN: Downloading webpage
-[download] Downloading playlist: RECORD TV JAPAN - Home
-[youtube:tab] playlist RECORD TV JAPAN - Home: Downloading 5 videos
-[download] Downloading video 1 of 5
-[youtube:tab] RECORDTVJAPAN: Downloading webpage
+
 EOL        
