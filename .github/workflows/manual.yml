@@ -83,8 +83,17 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl --get-thumbnail https://www.climaaovivo.com.br/go/goiania-comfort-hotel-goiania)
+        $(youtube-dl -g https://www.climaaovivo.com.br/go/goiania-comfort-hotel-goiania)
         EOL
+    - name: Get ALGUM5.m3u8
+      run: |
+        touch ./ALGUM5.m3u8
+        sudo cat >./ALGUM5.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://diaonline.ig.com.br/camera-ao-vivo/morro-do-mendanha/)
+        EOL        
     - name: git add
       run: |
         git add -A
