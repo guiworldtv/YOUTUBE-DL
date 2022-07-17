@@ -47,7 +47,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl --get-thumbnail  https://www.youtube.com/watch?v=QCeNWinKkZg)
+        $(youtube-dl -g  https://www.youtube.com/watch?v=QCeNWinKkZg)
         EOL
     - name: Get ALGUM.m3u8
       run: |
@@ -56,7 +56,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://radio.ufg.br/p/8051-radio-ao-vivo)
+        $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-ibirapuera)
         EOL        
     - name: Get ALGUM2.m3u8
       run: |
@@ -65,7 +65,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.cxtv.com.br/tv-ao-vivo/iurd-tv)
+        $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/alpha-sat-paulista-wall-street-sudoeste)
         EOL
     - name: Get ALGUM3.m3u8
       run: |
@@ -74,7 +74,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.cxtv.com.br/tv-ao-vivo/sic)
+        $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-moema)
         EOL
     - name: Get ALGUM4.m3u8
       run: |
@@ -92,7 +92,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://diaonline.ig.com.br/camera-ao-vivo/porto-aruana-go/)
+        $(youtube-dl -g https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel)
         EOL        
     - name: git add
       run: |
