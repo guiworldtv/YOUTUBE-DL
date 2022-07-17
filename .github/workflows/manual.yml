@@ -25,6 +25,7 @@ jobs:
     - name: RTVE 24h
       run: |
         sudo mkdir \amor
+        cd \amor
         touch ./24h.m3u8
         sudo cat >./24h.m3u8 <<EOL
         #EXTM3U
@@ -94,7 +95,34 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel)
+        EOL       
+    - name: Get ALGUM6.m3u8
+      run: |
+        touch ./ALGUM6.m3u8
+        sudo cat >./ALGUM6.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-tuakaza)
         EOL        
+    - name: Get ALGUM7.m3u8
+      run: |
+        touch ./ALGUM7.m3u8
+        sudo cat >./ALGUM7.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel)
+        EOL        
+    - name: Get ALGUM8.m3u8
+      run: |
+        touch ./ALGUM8.m3u8
+        sudo cat >./ALGUM8.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(youtube-dl -g https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel)
+        EOL                
     - name: git add
       run: |
         git add -A
