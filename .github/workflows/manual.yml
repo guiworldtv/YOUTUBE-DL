@@ -119,7 +119,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.climaaovivo.com.br/rj/rio-de-janeiro/rio-de-janeiro-cdesign-hotel)
+        $(youtube-dl -g https://www.radio995fm.com.br/ao-vivo/)
         EOL                
     - name: git add
       run: |
