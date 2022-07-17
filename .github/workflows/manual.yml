@@ -22,10 +22,12 @@ jobs:
       run: |
         sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
         sudo chmod a+rx /usr/local/bin/youtube-dl
+        mkdir SEPARADOS
+        cd SEPARADOS
     - name: RTVE 24h
       run: |
-        mkdir build
-        cd build
+        mkdir SEPARADOS
+        cd SEPARADOS
         touch ./24h.m3u8
         sudo cat >./24h.m3u8 <<EOL
         #EXTM3U
@@ -35,6 +37,8 @@ jobs:
         EOL
     - name: CBC News
       run: |
+        mkdir SEPARADOS
+        cd SEPARADOS
         touch ./CBCNews.m3u8
         sudo cat >./CBCNews.m3u8 <<EOL
         #EXTM3U
