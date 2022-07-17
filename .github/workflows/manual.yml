@@ -24,7 +24,6 @@ jobs:
         sudo chmod a+rx /usr/local/bin/youtube-dl
     - name: RTVE 24h
       run: |
-        cp -r https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAirYT.m3u8 ./ALGUMA.m3u8
         touch ./24h.m3u8
         sudo cat >./24h.m3u8 <<EOL
         #EXTM3U
