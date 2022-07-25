@@ -57,7 +57,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g  --skip-download  https://www.youtube.com/watch?v=EWmceuJfinw)
+        $(youtube-dl -g  --no-video-multistreams  https://www.youtube.com/watch?v=EWmceuJfinw)
         EOL
     - name: Get ALGUM.m3u8
       run: |
