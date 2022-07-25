@@ -57,7 +57,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g  --write-auto-subs  https://www.youtube.com/watch?v=EWmceuJfinw)
+        $(youtube-dl -g  --write-auto-subs  --embed-subs https://www.youtube.com/c/cronicatv/live)
         EOL
     - name: Get ALGUM.m3u8
       run: |
