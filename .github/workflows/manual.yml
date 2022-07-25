@@ -29,7 +29,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g --username gezar_souza@hotmail.com neckas0302 Return https://globoplay.globo.com/v/10764248/?s=0s/)
+        $(youtube-dl -g --ap-username gezar_souza@hotmail.com --ap-password neckas0302 Return https://globoplay.globo.com/v/10764248/?s=0s/)
         EOL
     - name: CNN ESPAÑOL
       run: |
