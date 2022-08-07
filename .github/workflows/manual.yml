@@ -32,6 +32,16 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g  https://www.playplus.tv/VOD/7572/db8d274a5163424e967f35a30ddafb8e)
         EOL
+    - name: CNBC
+      run: |
+        cd US
+        touch ./CNBC.m3u8
+        sudo cat >./CNBC.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        $(youtube-dl -g https://www.livenewsnow.com/american/cnbc.html)
+        EOL
     - name: CNN ESPAÑOL
       run: |
         touch ./CNNESPAÑOL.m3u8
