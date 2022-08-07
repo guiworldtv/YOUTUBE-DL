@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g --username --guilhermemartinstv@hotmail.com https://www.playplus.tv/VOD/7572/db8d274a5163424e967f35a30ddafb8e)
+        $(youtube-dl -g --username --guilhermemartinstv@hotmail.com --neckas0302 https://www.playplus.tv/VOD/7572/db8d274a5163424e967f35a30ddafb8e)
         EOL
     - name: CNBC
       run: |
