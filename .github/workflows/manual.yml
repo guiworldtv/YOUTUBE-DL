@@ -32,33 +32,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g   --embed-thumbnail https://www.youtube.com/c/cronicatv/live)
         EOL
-    - name: Get ALGUM.m3u8
-      run: |
-        touch ./ALGUM.m3u8
-        sudo cat >./ALGUM.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-ibirapuera)
-        EOL        
-    - name: Get ALGUM2.m3u8
-      run: |
-        touch ./ALGUM2.m3u8
-        sudo cat >./ALGUM2.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/alpha-sat-paulista-wall-street-sudoeste)
-        EOL
-    - name: Get ALGUM3.m3u8
-      run: |
-        touch ./ALGUM3.m3u8
-        sudo cat >./ALGUM3.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.climaaovivo.com.br/sp/sao-paulo/sao-paulo-slaviero-essential-moema)
-        EOL
+     
     - name: Get ALGUM4.m3u8
       run: |
         touch ./ALGUM4.m3u8
