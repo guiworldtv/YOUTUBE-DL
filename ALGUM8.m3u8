@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://skyfire.vimeocdn.com/1662678897-0x24f56239c271507ed10b3abe2d608550068e6f76/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/04e0422b/playlist.m3u8
-https://skyfire.vimeocdn.com/1662678897-0x24f56239c271507ed10b3abe2d608550068e6f76/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/2b4070db,04e0422b,79e9546c,3993b153,67b0229f,a67ca1ed/master.mpd?base64_init=1
+https://106vod-adaptive.akamaized.net/exp=1662688915~acl=%2F53e15ee5-4da8-467d-a439-811da25150b1%2F%2A~hmac=1986279d0afa676280a8772c733cce98804883ca9ac6d880208c59850ba09c9e/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/04e0422b/playlist.m3u8
+https://106vod-adaptive.akamaized.net/exp=1662688915~acl=%2F53e15ee5-4da8-467d-a439-811da25150b1%2F%2A~hmac=1986279d0afa676280a8772c733cce98804883ca9ac6d880208c59850ba09c9e/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/2b4070db,04e0422b,79e9546c,3993b153,67b0229f,a67ca1ed/master.mpd?base64_init=1
 EOL         
