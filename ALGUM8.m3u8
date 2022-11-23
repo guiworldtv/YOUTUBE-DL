@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://106vod-adaptive.akamaized.net/exp=1669202066~acl=%2F53e15ee5-4da8-467d-a439-811da25150b1%2F%2A~hmac=4d4c117eb05f67f6e6177cc0e133e0443a56643cd09d36747fea9a7031454c71/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/04e0422b/playlist.m3u8
-https://106vod-adaptive.akamaized.net/exp=1669202066~acl=%2F53e15ee5-4da8-467d-a439-811da25150b1%2F%2A~hmac=4d4c117eb05f67f6e6177cc0e133e0443a56643cd09d36747fea9a7031454c71/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/2b4070db,04e0422b,79e9546c,3993b153,67b0229f,a67ca1ed/master.mpd?base64_init=1
+https://106vod-adaptive.akamaized.net/exp=1669209676~acl=%2F53e15ee5-4da8-467d-a439-811da25150b1%2F%2A~hmac=74bc93c2a6731a0c9868dfa8569c8918e6ec1b49478e7d3ea57ae8b8d7fe42cd/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/04e0422b/playlist.m3u8
+https://106vod-adaptive.akamaized.net/exp=1669209676~acl=%2F53e15ee5-4da8-467d-a439-811da25150b1%2F%2A~hmac=74bc93c2a6731a0c9868dfa8569c8918e6ec1b49478e7d3ea57ae8b8d7fe42cd/53e15ee5-4da8-467d-a439-811da25150b1/sep/video/2b4070db,04e0422b,79e9546c,3993b153,67b0229f,a67ca1ed/master.mpd?base64_init=1
 EOL         
